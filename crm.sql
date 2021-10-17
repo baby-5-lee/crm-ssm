@@ -17,6 +17,9 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+DROP DATABASE IF EXISTS CRM;
+CREATE DATABASE CRM;
+USE CRM;
 -- ----------------------------
 -- Table structure for tbl_activity
 -- ----------------------------
